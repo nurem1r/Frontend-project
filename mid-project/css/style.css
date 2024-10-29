@@ -1,74 +1,110 @@
 /* style.css */
 
-body {
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
     font-family: Arial, sans-serif;
     background-color: #e8c087;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
-}
-
-.card {
-    display: flex;
-    width: 800px;
-    background-color: white;
-}
-.left-section {
-    background-color: #44485b;
-    color: white;
-    width: 30%;
-    padding: 20px;
-}
-.right-section {
-    width: 70%;
-    padding: 20px;
-}
-
-.left-section h2 {
-    font-size: 1.8rem;
-    font-weight: bold;
-    line-height: 1.4;
-}
-
-.left-section h2 span {
-    display: block;
-    margin-top: 10px;
-    font-weight: normal;
-    border-bottom: 2px solid #e88a8a;
-    padding-bottom: 5px;
-}
-
-.author {
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-    font-size: 1rem;
-}
-
-.card {
+  }
+  
+  .card {
     display: flex;
     width: 800px;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.left-section {
+  }
+  
+  .left-section {
+    background-color: #44485b;
+    color: white;
+    width: 30%;
     padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-
-.right-section {
+  }
+  
+  .left-section h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .left-section h2 span {
+    font-weight: normal;
+    display: block;
+    margin-top: 10px;
+    border-bottom: 2px solid #e88a8a;
+    padding-bottom: 5px;
+  }
+  
+  .author {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .author img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .author p {
+    font-size: 1rem;
+  }
+  
+  .right-section {
+    background-color: white;
+    width: 70%;
     padding: 30px;
-}
-
-.large-letter {
+    color: #444;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .content {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .large-letter {
     font-size: 2.5rem;
     float: left;
     margin-right: 5px;
     line-height: 1;
-}
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #777;
+    font-size: 0.9rem;
+  }
+  
+  .footer .time {
+    font-weight: bold;
+  }
+  
+  .comments {
+    display: flex;
+    align-items: center;
+  }
+  
+  .comments .icon {
+    font-size: 1.2rem;
+    margin-right: 5px;
+  }
+  
