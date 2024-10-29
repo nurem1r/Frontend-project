@@ -2,4 +2,26 @@
 
 body {
     font-family: Arial, sans-serif;
+    background-color: #e8c087;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    display: flex;
+    width: 800px;
+    background-color: white;
+}
+.left-section {
+    background-color: #44485b;
+    color: white;
+    width: 30%;
+    padding: 20px;
+}
+.right-section {
+    width: 70%;
+    padding: 20px;
 }
