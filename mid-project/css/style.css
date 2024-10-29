@@ -46,3 +46,29 @@ body {
     margin-top: 20px;
     font-size: 1rem;
 }
+
+.card {
+    display: flex;
+    width: 800px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.left-section {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-section {
+    padding: 30px;
+}
+
+.large-letter {
+    font-size: 2.5rem;
+    float: left;
+    margin-right: 5px;
+    line-height: 1;
+}
