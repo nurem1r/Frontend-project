@@ -25,3 +25,24 @@ body {
     width: 70%;
     padding: 20px;
 }
+
+.left-section h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+.left-section h2 span {
+    display: block;
+    margin-top: 10px;
+    font-weight: normal;
+    border-bottom: 2px solid #e88a8a;
+    padding-bottom: 5px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 1rem;
+}
